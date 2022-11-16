@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: 'Xanh Mono', monospace;
+}
+
+.input {
+
+    display: flex;
+
+    padding: 1%;
+
+    margin-top: 10px;
+    margin-left:300px; 
+
+
+}
+
+.button {
+    display: flex;
+
+    padding: 1%;
+    margin-top: 10px;
+    margin-left: 700px;
+}
+
+form {
+
+    border:1px solid;
+    border-radius: 5px;
+     width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+
