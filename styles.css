@@ -2,26 +2,47 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    list-style: none;
 
 }
 
-
-/* .container {
-
-    display: flex;
-
-    padding: 1%;
-
-    margin-top: 10px;
-    margin-left:300px; 
+/* .navbar {
+    display: inline;
+    font-size: 15px;
+    padding-right: 90px;
+    
 } */
-img{
-    width: 200px;
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 10%;
+    background-color: #2b2525;
+    
+    /* background-color: coral; */
+
+    margin-bottom: 70px;
+
 }
+
+.links{
+    color: rgb(255, 255, 255);
+}
+
 
 .titulo{
    text-align: center;
-   font-family: 'Sono', sans-serif;
+   margin-bottom: 70px;
+   font-size: 30px;
+   font-family: 'Titillium Web', sans-serif;
+   color: #2b2525;
+   border-bottom: solid 1px;
+   border-color: black;
+   margin-right: 170px;
+   margin-left: 120px;
+   padding-left: 50px;
 
 }
 
@@ -30,7 +51,7 @@ img{
     width: 180px;
     height: 180px;
     /* box-shadow: 1px 0px 15px rgb(167, 167, 167); */
-    margin-right: 50px; 
+
     border-radius: 20px;
     padding: 10px;
 
@@ -39,7 +60,7 @@ img{
 
 
  .img-fotos:hover {
-    transform: scale(1.01);
+    transform: scale(1.20);
     /* box-shadow: -7px 4px 28px -3px rgb(179, 176, 176); */
   }
 
@@ -75,6 +96,7 @@ p {
     text-align: center;
     padding: 10px;
     border-radius: 30px;
+    margin-left: 20px;
     box-shadow: 0 0 21px -16px rgb(0 0 0 / 76%);
 }
 
@@ -86,17 +108,14 @@ li {
 .showcase-item {
     display: inline-block;
     vertical-align: top;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
+
     margin-bottom: 35px;
     margin-left: 50px;
     max-width: 270px;
     white-space: normal;
 }
 
-header{
-    margin-top: 40px;
-}
+
 
 ul {
     display: block;
@@ -110,3 +129,46 @@ ul {
     text-decoration: none;
 }
 
+.navbar {
+    color: #fff;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbar li a button {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.logo {
+    cursor: pointer;
+    width: 100px;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    border-radius: 50px;
+    cursor: point;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #0088a9
+}

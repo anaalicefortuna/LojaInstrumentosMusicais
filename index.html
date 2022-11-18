@@ -10,32 +10,40 @@
 </head>
 <body>
     <header>
+        <img class="logo" src="./assets/imagens/martina-man-playing-guitar-music-for-woman.gif" alt="">
         <nav>
-            <ul>
-                <li>
-                  <p> Seja Bem vindo Faça <a href="login.html">Login</a> ou <a href="cadastro.html">Cadastre-se</a><a href="pedidos">Meus Pedidos</a>
-
+            <ul class="nav_links">
+                <li class="navbar">
+                   Seja Bem vindo
                 </li>
-            </p> 
-            
+                <li class="navbar">
+                <a class="links" href="login.html">Login</a>
+                </li>
+                <li class="navbar">
+                    <a class="links" href="cadastro.html">Cadastro</a>
+                </li>
+                <li class="navbar">
+                    <a class="links" href="pedidos">Meus Pedidos</a>
+                </li>
+
+                <a class="cta" href="#"><button>Contato</button></a>
+                <a class="cta" href="#"><button onclick="handleClick()">Promoção</button></a>
+
             </ul>
+
         </nav>
 
-        <!-- <div>
-            <img class="img-logo" src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Musical_instruments.png" alt="">
-        </div> -->
     </header>
 
 
     <main>
+        <div>
+
+            <h1 class="titulo"> Destaques </h1>
+        </div>
         
         <section>
-
-            <h1 class="titulo">
-                Destaques
-            </h1>
-
-            <div class="container">
+            <div>
 
                 <ul>
                     <li class="showcase-item">
@@ -64,7 +72,7 @@
                     <li class="showcase-item">
                         <a href="" class="product">
                             <div>
-                                <img src="https://harmoniamusical.com.br/media/catalog/product/cache/7c65d8a16c1a9fa15447e0ab5eeb833b/p/a/pandeiro_contemporanea_10_formica_especial_31_ppc.jpg" alt="">
+                                <img class="img-fotos" src="https://harmoniamusical.com.br/media/catalog/product/cache/7c65d8a16c1a9fa15447e0ab5eeb833b/p/a/pandeiro_contemporanea_10_formica_especial_31_ppc.jpg" alt="">
                             </div>
                             <p>Pandeiro Contemporânea 31C</p>
                             <div class="preco-avista">Por R$396,00 à vista</div>
@@ -76,7 +84,7 @@
                             <div>
                                 <img class="img-fotos" src="https://troktokmusical.com.br/wp-content/uploads/2020/09/10570.jpg" alt="">
                             </div>
-                            <p>Bateria 20 Acústica C.Ibanez Stage</p>
+                            <p>Bateria 20 Acústica C.Ibanez</p>
                             <div class="preco-avista">À vista R$3.740,00</div>
                             <div class="parcela">ou em 10x de R$449,47 sem juros</div>
                         </a>
@@ -89,6 +97,7 @@
 
 
     </main>
+    <script type="text/javascript" src="script.js"></script>
     
 </body>
 </html>
